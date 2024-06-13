@@ -1,0 +1,71 @@
+.overview-main {
+  padding: 0px 20px;
+  color: white;
+  width: 100%;
+}
+.css-8f57v9 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.about-title {
+  font-size: 22px !important;
+}
+.about-company {
+  font-size: 16px !important;
+  padding-top: 10px !important;
+  color: #a7adbe !important;
+}
+.read-more {
+  color: #f94949 !important;
+  background-color: transparent !important;
+  padding: 0px !important;
+  text-transform: lowercase !important;
+  border: none !important;
+}
+.profildetail-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profiledetail-div {
+  border: 1px solid #272c34;
+  padding: 20px;
+  width: 90% !important;
+  border-radius: 8px;
+  margin: 40px 0px !important;
+}
+.cprofile-container {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.cprofile-datadiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.divider {
+  border-bottom: 1px solid #272c34 !important;
+  margin: 10px 0px !important;
+}
+.cprofile-title {
+  color: #a7adbe;
+}
+.part-of-index-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust gap between items */
+}
+
+.partitem-box {
+  background-color: #34373c;
+  color: #ffffff; /* Adjust text color if needed */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 4px; /* Optional: add border radius for rounded corners */
+  flex: 1 1 auto; /* Adjust flex properties to control item sizing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}

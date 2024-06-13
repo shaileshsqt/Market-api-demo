@@ -1,0 +1,32 @@
+.main-container {
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #181b21;
+  overflow: hidden;
+}
+.tabinfo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 73%;
+  background-color: #181b21;
+}
+/* .graph-container {
+  display: flex;
+  width: 25%;
+  background-color: #545454;
+} */
+.tab-container {
+  display: flex;
+  width: 100%;
+  padding: 0px 20px !important;
+  background-color: #181b21;
+}
+.tab-text {
+  text-transform: capitalize !important;
+  color: white !important;
+}

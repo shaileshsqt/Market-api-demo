@@ -1,0 +1,81 @@
+.management-main {
+  color: white;
+  padding: 0px 20px;
+}
+.main-title {
+  font-size: 20px !important;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.accordian-main {
+  margin-top: 20px;
+  border: 1px solid #728093;
+  border-radius: 4px;
+  padding-bottom: 20px !important;
+}
+.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-disabled {
+    opacity: 1 !important;
+}
+.header-panel {
+  background-color: #1e1f25 !important;
+  color: #728093 !important;
+  display: flex;
+  padding: 10px 20px !important;
+  /* border-bottom: 1px solid #728093 !important; */
+}
+.header-panel::after {
+  background-color: #728093;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 97%;
+}
+.accordian-panel {
+  background-color: #272c34 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  position: relative;
+  /* border-bottom: 1px solid #728093 !important; */
+}
+.accordian-panel:not(:last-child)::after {
+  background-color: #728093;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 97%;
+}
+
+.accordian-panel span {
+  color: #728093;
+  font-size: 15px !important;
+}
+.accordian-panel:hover {
+  background-color: #181818 !important;
+}
+.panel-detail {
+  background-color: #21242b !important;
+  color: white;
+}
+.panel-detail:hover {
+  background-color: #21242b !important;
+}
+.button-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.viewmore-button {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    cursor: pointer;
+}
